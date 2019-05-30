@@ -1,0 +1,100 @@
+body{background: url("fon.png" ); 
+	
+}
+main{display: block;
+	margin: 0 auto;
+	
+	width: 1200px;
+	height: 2500px;
+	background-color: white;
+}
+nav{display: flex;
+	height: 150px;
+	background-color: #402720;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+
+}
+.img_nav{
+	height: 150px;
+	width: 500px;
+	float: left;
+	display: flex; /* */
+	justify-content: space-around;  /* вирівнює елементи по горизонталі:Елементи
+	 буде зображено з рівними відступами навколо них*/
+}
+
+.img_nav img{ 
+	height: 150px;
+}
+.nav_menu{
+
+	width: 600px;
+	float: right;
+	height: 150px;
+	text-align: center;
+	margin: 0; /*позволяет задать величину отступа сразу для всех сторон элемента
+	 или определить ее только для указанных сторон */
+	 padding: 0;
+}
+
+.nav_menu ul{
+	list-style: none;/*Отменяет маркеры для списка*/
+	margin: 0; /* Убираем внешние отступы */
+	padding: 0; /* Убираем отступы внутри */
+}
+.nav_menu li{
+	font-family: Times New Ro...;
+    color: white;
+	font-size: 18px;
+	display: inline-block;  /*Для того, чтобы элементы на странице располагались 
+	друг за другом горизонтально, Высота и ширина не могут быть заданы */
+	text-align: center;
+	line-height: 150px; /*управляем высотой строки или, правильнее, межстрочным интервалом */
+	position: relative;
+	padding: 0; /* Убираем отступы внутри */
+	margin: 0;
+}
+li:hover{
+	background-color:white;
+	cursor: pointer; /* Устанавливает форму курсора*/
+	color: black;
+}
+.misto {
+	font-family: Times New Ro...;
+    color: white;
+	font-size: 18px;
+}
+.misto img{
+	width: 1200px;
+}
+.misto{
+	font-family: Times New Ro...;
+	color: red;
+	text-align: center;
+}
+.foto_misto{
+height: 500px;
+width: 500px;
+float: left;
+}
+.text_misto{
+	height: 80px;
+	width: 200px;
+	color: red;
+	float: right;
+	margin: 10px;
+}
+#misto {
+	width: 500px;
+}
+a: hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
